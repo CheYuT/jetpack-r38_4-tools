@@ -1,0 +1,40 @@
+# ==========================================
+# JetPack / L4T BSP .gitignore
+# ==========================================
+
+# 1. Images related files
+*.img
+*.img.ext4
+*.img.raw
+*.blob
+system.img*
+boot.img
+recovery.img
+
+# 2. Device Tree related files
+*.dtb
+*.dtbo
+
+# 3. C/C++ and Kernel compile files
+*.o
+*.ko
+*.a
+*.so
+*.mod
+*.mod.c
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+
+# 4. Compile Out folders
+/out/
+/build/
+/kernel_out/
+
+# 5. Hide system files
+.DS_Store
+*~
+*.swp
+.vscode/
+
